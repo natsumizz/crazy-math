@@ -1,0 +1,115 @@
+@font-face {
+    font-family: Rowdies;
+    src: url('../fonts/Rowdies-Regular.ttf');
+}
+
+#main {
+    position: relative;
+    height: 80%;
+    background-color: #2196F3;
+}
+
+#start_scr{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    z-index: 500;
+    background: #007bff;
+    text-align: center;
+    vertical-align: middle;
+}
+#btn_start{
+    margin-top: 100%;
+    font-size: 1.5em;
+    padding: 20px;
+    background: #2db834;
+    color: white;
+}
+
+.card{
+    padding: 8px;
+    text-align: center;
+}
+
+#score {
+    margin: 8px 0;
+}
+
+#level {
+    margin: 8px 0;
+}
+
+#time {
+    height: 10px;
+    background-color: rgba(255, 0, 0, 0.47);
+}
+
+
+#scr{
+    background-color: #2196F3;
+    font-family: 'Rowdies', cursive;
+    color: white;
+}
+#calculation {
+    width: 100%;
+    text-align: center;
+    padding: 70px 0 0 0;
+    box-sizing: border-box;
+    font-size: xxx-large;
+    margin: 0;
+}
+
+#equal{
+    text-align: center;
+    font-size: xxx-large;
+    margin: 0;
+}
+
+#result {
+    margin: 0;
+    width: 100%;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#clickArea {
+    width: 100%;
+    background-color: #2196F3;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.check-btn, .check-btn:hover, .check-btn:focus
+{
+    width: 75%;
+    background: white;
+    font-size: xxx-large;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    outline: none;
+}
+#true {
+    color: green;
+}
+.true{
+    color: green;
+}
+
+#false {
+    color: red;
+}
+.false {
+    color: red;
+}
+
+#best-score{
+    font-weight: bold;
+}
